@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+const API_URL = 'https://ums-backend-y9lb.onrender.com';
 const API_PREFIX = '/api/v1';
 
 async function fetchWithAuth(endpoint: string, options: RequestInit = {}) {
